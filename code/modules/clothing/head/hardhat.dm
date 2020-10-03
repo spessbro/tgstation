@@ -168,3 +168,15 @@
 	icon_state = "hardhat0_dblue"
 	inhand_icon_state = "hardhat0_dblue"
 	hat_type = "dblue"
+
+/obj/item/clothing/head/hardhat/snas
+	name = "massive foam skull"
+	desc = "What's this guy's name again? Sand? Sailsbury?"
+	icon_state = "hardhat0_sans"
+	hat_type = "sans"
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0) //just dodge, duh
+	resistance_flags = null
+	flags_inv = HIDEHAIR|HIDEFACIALHAIR
+	clothing_flags = SNUG_FIT
+	flags_cover = HEADCOVERSEYES
+	dynamic_hair_suffix = ""
