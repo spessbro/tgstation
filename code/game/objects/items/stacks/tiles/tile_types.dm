@@ -396,7 +396,6 @@
 	inhand_icon_state = "tile"
 	force = 6
 	mats_per_unit = list(/datum/material/iron=500)
-	throwforce = 10
 	flags_1 = CONDUCT_1
 	turf_type = /turf/open/floor/iron
 	mineralType = "iron"
